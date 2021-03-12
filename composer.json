@@ -1,0 +1,36 @@
+{
+  "name": "bluesquadron/porcupine",
+  "type": "library",
+  "description": "Porcupine is a security unit testing library",
+  "keywords": [
+    "porcupine",
+    "fixtures",
+    "security",
+    "injection"
+  ],
+  "license": "GPL-3.0-or-later",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bluesquadron/porcupine",
+  "authors": [
+    {
+      "name": "Shenril <florent.batard@gmail.com>"
+    }
+  ],
+  "require": {
+    "php": "^7.0 || ^8.0"
+  },
+  "require-dev": {
+    "ext-intl": "*",
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Porcupine\\": "src/Porcupine/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Porcupine\\Test\\": "test/Porcupine/"
+    }
+  }
+}
